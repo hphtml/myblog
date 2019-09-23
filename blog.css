@@ -55,6 +55,155 @@ div#test {
 
 /*-----------------------リセットここまで-----------------------*/
 
+/*--------------------------スマホ768以上----------------------*/
+@media(min-width:768px){
+    .shako{
+        display: none;
+    }
+    .nikii{
+        display: none;
+    }
+    .bodybodybody{
+        display: none;
+    }
+    .footer3{
+        display: none;
+    }
+
+
+}
+
+/*-----------------------スマホレイアウト767以下----------------------*/
+
+@media (max-width:767px){
+    .footer3 a{
+        text-decoration: none;
+        color:#7a6e71;
+    }
+    .footer3 a:hover{
+        opacity: 0.9;
+    }
+    .topimg img{
+        height: 40%;
+    }
+    .setumei{
+        margin-top: 0;
+    }
+    .midasi{
+        padding: 60px 0 60px 0;
+    }
+    .shako{
+        margin-bottom: 80px;
+    }
+    .footer1{
+        display: none;
+    }
+    body{
+        color: #7a6e71;
+    }
+    body a{
+        text-decoration: none;
+    }
+    .container{
+        display: none;
+    }
+
+    img{
+        width: 100%;
+    }
+    .sflex ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding:0 15px 15px 15px;
+    }
+    .li{
+        width: 48%;
+        position: relative;
+    }
+    .li p{
+        text-align: center;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .li1{
+        margin-right:4%;
+    }
+    .mozi{
+        position: absolute;
+        bottom: 7px;
+        width: 100%;
+        height: 30px;
+        background-color: #7a6e71;
+        color: white;
+    }
+    .body{
+        display: none;
+    }
+    .nikii{
+        background-color: #7a6e71;
+        color:white;
+        font-size: 40px;
+        text-align: center;
+    }
+    .bodybodybody{
+        width: 100%;
+        color:#7a6e71;
+        height: 800px;
+        display: flex;
+        margin-top:80px;
+    }
+    .ssflex{
+        width: 48%;
+    }
+    .ssflex p{
+        text-align: center;
+    }
+    .ssrflex{
+        margin-right: 4%;
+        padding-left: 15px;
+    }
+    .ssrrflex{
+        padding-right: 15px;
+    }
+    .sita{
+        color:#7a6e71;
+    }
+    .migimigi{
+        opacity: 0.8;
+        color:#7a6e71;
+    }
+    .kizi{
+        color: deeppink;
+        opacity: 0.7;
+    }
+    .ssflex a:hover{
+        opacity: 0.8;
+    }
+
+ /*---------------スマホbodyここまで-----------------------------*/
+    .footer3{
+        width: 80%;
+        margin-top: 50px;
+    }
+    .footer3 .sumaho{
+        margin-bottom: 90px;
+    } 
+    .sumaho li{
+        margin-bottom: 20px;
+    }
+    .ue{
+        margin-bottom: 30px;
+        border-bottom: 1px solid #fff;
+        border-color: #dd305e;
+        font-size:18px;
+        color:#7a6e71;
+        padding: 0 5px 5px 5px;
+    }
+}
+
+/*---------------------スマホレイアウトここまで-----------------------------*/
+
+
 /*--------------------自己紹介--------------------------------*/
 .zibun{
     text-align: center;
@@ -65,13 +214,20 @@ div#test {
 }
 
 /*------------------日記用--------------------------------*/
-.niki1{
+.niki1niki1 p{
     text-align: center;
     color:#7a6e71;
     font-size: 40px;
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.midasimidasi{
+    text-align: center;
+    color:#7a6e71;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
 
 
 /*
@@ -81,7 +237,7 @@ div#test {
 */
 
 .container{
-    width:1200px;
+    width:90%;
     height: 48px;
     padding: 0 30px;
     margin: 0 auto;
@@ -100,6 +256,9 @@ header li{
     border-left: 1px solid #efefef;
     font-family: 'Quicksand','Noto Sans Japanese', sans-serif;
     opacity: 0.8;
+}
+.lili{
+    border-right: 1px solid #efefef;
 }
 
 header li:hover{
@@ -120,24 +279,22 @@ header ul{
 }
 
 .midasi{
-    padding: 40px 0 40px 0;
+    padding: 60px 0 60px 0;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 180%;
     font-weight: normal;
     text-align: center;
     color:#7a6e71;
 }
-.setumei{
-    margin-top: 30px;
-}
+
 
 .midasi p{
     text-align: center;
     color:#7a6e71;
     opacity: 0.9;
-    font-size: 20px;
+    font-size: 130%;
 }
 
 .topimg{
@@ -181,6 +338,7 @@ h1{
 .niki a:hover{
     opacity: 0.9;
 }
+
 .niki p{
     margin-bottom: 7px;
     margin-left: 5px;
@@ -212,6 +370,9 @@ h1{
 footer{
     padding: 15px 0 15px 0;
 }
+.fleft a{
+    text-decoration: none;
+}
 
 .footer1{
     padding: 25PX 0 25PX 0;
@@ -222,10 +383,16 @@ footer{
 
 .footer2{
     padding: 0 30px 0 30px;
-    width: 1200px;
+    width: 90%;
     height: 400px;
     display: flex;
     margin: 0 auto;
+}
+.footer2 a{
+    text-decoration: none;
+}
+.footer2 a:hover{
+    opacity: 0.9;
 }
 
 /*-------------------footerleft以下-------------------------*/
@@ -253,7 +420,7 @@ footer{
 
 /*---------------------footernaka以下----------------------------*/
 .fnaka{
-    margin-left: 65px;
+    margin-left: 8%;
     width: 350px;
     height: 450px;
 }
@@ -304,7 +471,7 @@ footer{
 /*------------------footerright以下----------------------------------------*/
 
 .fright{
-    margin-left: 65px;
+    margin-left: 8%;
     width: 350px;
     height: 450px;
 }
